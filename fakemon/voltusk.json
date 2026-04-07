@@ -1,0 +1,108 @@
+{
+  "id": "voltusk",
+  "name": "Voltusk",
+  "createdBy": "Ms. Herrick",
+  "emoji": "\ud83d\udc18",
+  "type": "Electric",
+  "hp": 110,
+  "color": "#BA7517",
+  "description": "A mammoth crackling with static charge. Its tusks act as lightning rods.",
+  "moves": [
+    {
+      "id": "tusk_charge",
+      "name": "\u2694\ufe0f Tusk Charge",
+      "desc": "Thundering full-body charge.",
+      "speed": "medium",
+      "damage": [
+        18,
+        24
+      ],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "stun_spore",
+      "name": "\u26a1 Stun Spore",
+      "desc": "Releases a cloud of electric spores.",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "paralyze",
+      "statusChance": 1.0
+    },
+    {
+      "id": "charge_up",
+      "name": "\ud83d\udcc8 Charge Up",
+      "desc": "Stores electricity, sharply raising ATK.",
+      "speed": "slow",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statup",
+      "statusChance": 1.0
+    },
+    {
+      "id": "static_heal",
+      "name": "\ud83d\udc8a Static Heal",
+      "desc": "Channels stored energy into self-repair.",
+      "speed": "slow",
+      "damage": [
+        -25,
+        -25
+      ],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "thunder_gaze",
+      "name": "\ud83d\ude35 Thunder Gaze",
+      "desc": "Overwhelming electric aura confuses the enemy.",
+      "speed": "fast",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "confuse",
+      "statusChance": 1.0
+    },
+    {
+      "id": "thunder_stomp",
+      "name": "\ud83c\udf29\ufe0f Thunder Stomp",
+      "desc": "A ground-shaking stomp with electric discharge. May paralyze.",
+      "speed": "slow",
+      "damage": [
+        20,
+        26
+      ],
+      "status": "paralyze",
+      "statusChance": 0.3
+    },
+    {
+      "id": "overcharge",
+      "name": "\ud83d\udcc8 Overcharge",
+      "desc": "Pushes electrical output beyond safe limits. ATK surges.",
+      "speed": "fast",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statup",
+      "statusChance": 1.0
+    },
+    {
+      "id": "iron_wall",
+      "name": "\ud83d\udee1\ufe0f Iron Wall",
+      "desc": "Magnetizes hide to deflect blows. Lowers enemy ATK.",
+      "speed": "slow",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statdwn",
+      "statusChance": 1.0
+    }
+  ]
+}

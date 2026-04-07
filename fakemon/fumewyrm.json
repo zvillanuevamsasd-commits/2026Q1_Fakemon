@@ -1,0 +1,108 @@
+{
+  "id": "fumewyrm",
+  "name": "Fumewyrm",
+  "createdBy": "Ms. Herrick",
+  "emoji": "\ud83d\udc32",
+  "type": "Poison",
+  "hp": 90,
+  "color": "#7F77DD",
+  "description": "A serpentine dragon that breathes toxic miasma. Weakest body, most devious tactics.",
+  "moves": [
+    {
+      "id": "venom_fang",
+      "name": "\ud83d\udc89 Venom Fang",
+      "desc": "A quick bite loaded with neurotoxin. High poison chance.",
+      "speed": "fast",
+      "damage": [
+        10,
+        14
+      ],
+      "status": "poison",
+      "statusChance": 0.6
+    },
+    {
+      "id": "venom_drain",
+      "name": "\ud83e\ude78 Venom Drain",
+      "desc": "Injects venom and siphons HP back. May poison.",
+      "speed": "medium",
+      "damage": [
+        12,
+        16
+      ],
+      "status": "poison",
+      "statusChance": 0.4
+    },
+    {
+      "id": "miasma_cloud",
+      "name": "\ud83d\ude35 Miasma Cloud",
+      "desc": "Breathes a disorienting cloud of fumes.",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "confuse",
+      "statusChance": 1.0
+    },
+    {
+      "id": "tail_swipe",
+      "name": "\u2694\ufe0f Tail Swipe",
+      "desc": "A powerful sweep of the scaled tail.",
+      "speed": "medium",
+      "damage": [
+        18,
+        24
+      ],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "smoke_shroud",
+      "name": "\ud83c\udf2b\ufe0f Smoke Shroud",
+      "desc": "Obscures the field in thick smoke. Lowers enemy ATK.",
+      "speed": "fast",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statdwn",
+      "statusChance": 1.0
+    },
+    {
+      "id": "acid_spray",
+      "name": "\ud83e\uddea Acid Spray",
+      "desc": "Spits a corrosive stream. May poison.",
+      "speed": "medium",
+      "damage": [
+        10,
+        18
+      ],
+      "status": "poison",
+      "statusChance": 0.5
+    },
+    {
+      "id": "wyrm_mend",
+      "name": "\ud83d\udc8a Wyrm Mend",
+      "desc": "Coils and draws in ambient toxins to regenerate.",
+      "speed": "slow",
+      "damage": [
+        -25,
+        -25
+      ],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "corrosive_coil",
+      "name": "\ud83c\udf2b\ufe0f Corrosive Coil",
+      "desc": "Wraps tightly, leeching strength. Lowers enemy ATK.",
+      "speed": "slow",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statdwn",
+      "statusChance": 1.0
+    }
+  ]
+}

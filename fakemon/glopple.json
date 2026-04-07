@@ -1,0 +1,108 @@
+{
+  "id": "glopple",
+  "name": "Glopple",
+  "createdBy": "Ms. Herrick",
+  "emoji": "\ud83d\udc38",
+  "type": "Water",
+  "hp": 100,
+  "color": "#378ADD",
+  "description": "A slimy frog that oozes toxic bubbles. Its skin secretes a mild hallucinogen.",
+  "moves": [
+    {
+      "id": "water_gun",
+      "name": "\ud83d\udca7 Water Gun",
+      "desc": "A sharp jet of water to the face.",
+      "speed": "fast",
+      "damage": [
+        15,
+        22
+      ],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "vine_whip",
+      "name": "\ud83c\udf3f Vine Whip",
+      "desc": "Lashes out with a toxic vine. May poison.",
+      "speed": "medium",
+      "damage": [
+        12,
+        18
+      ],
+      "status": "poison",
+      "statusChance": 0.3
+    },
+    {
+      "id": "mud_slap",
+      "name": "\ud83e\udd71 Mud Slap",
+      "desc": "Flings hallucinogenic mud. May confuse.",
+      "speed": "fast",
+      "damage": [
+        8,
+        14
+      ],
+      "status": "confuse",
+      "statusChance": 0.4
+    },
+    {
+      "id": "ice_shard",
+      "name": "\u2744\ufe0f Ice Shard",
+      "desc": "Spits a frozen pellet. May paralyze.",
+      "speed": "fast",
+      "damage": [
+        16,
+        20
+      ],
+      "status": "paralyze",
+      "statusChance": 0.25
+    },
+    {
+      "id": "soak",
+      "name": "\ud83d\udd03 Soak",
+      "desc": "Drenches the enemy, lowering their ATK.",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statdwn",
+      "statusChance": 1.0
+    },
+    {
+      "id": "bubble_sleep",
+      "name": "\ud83e\udee7 Bubble Sleep",
+      "desc": "Blows sedative bubbles. Slight damage, may sleep.",
+      "speed": "slow",
+      "damage": [
+        5,
+        10
+      ],
+      "status": "sleep",
+      "statusChance": 0.5
+    },
+    {
+      "id": "pond_slam",
+      "name": "\ud83c\udf0a Pond Slam",
+      "desc": "Belly-flops with surprising force.",
+      "speed": "slow",
+      "damage": [
+        18,
+        24
+      ],
+      "status": null,
+      "statusChance": 0
+    },
+    {
+      "id": "algae_patch",
+      "name": "\ud83d\udc8a Algae Patch",
+      "desc": "Absorbs healing minerals from nearby algae.",
+      "speed": "slow",
+      "damage": [
+        -25,
+        -25
+      ],
+      "status": null,
+      "statusChance": 0
+    }
+  ]
+}
